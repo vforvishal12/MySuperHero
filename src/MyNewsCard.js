@@ -14,7 +14,7 @@ const MyNewsCard = ({articles}) => {
  
             <Card border="dark" style={{ width: '100%' }}>
             	
-			   	<Card.Img variant="top" src={article.images.lg} />
+			   	<Card.Img variant="top" src={article.images.md} />
 				
 
 			   	
