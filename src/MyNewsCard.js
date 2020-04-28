@@ -31,12 +31,12 @@ const MyNewsCard = ({articles}) => {
 			     
 			       <Card.Text> <Spinner animation="grow" variant="info" /> {article.biography.publisher} 
 			      </Card.Text>
-			      <div>
+			      
 					  <ProgressBar variant="success" label='Intelligence' animated now={article.powerstats.intelligence} />
 					  <ProgressBar variant="info" label='Strength' animated now={article.powerstats.strength} />
 					  <ProgressBar variant="" label='Speed' animated now={article.powerstats.speed} />
 					  <ProgressBar variant="danger" label='Power' animated now={article.powerstats.power} />
-				</div>
+				
 			    </Card.Body>	
 		  </Card>
 				
